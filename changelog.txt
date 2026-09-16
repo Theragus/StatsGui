@@ -1,7 +1,10 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.6.2
+Version: 1.7.0
 Date: ????
   Changes:
+    - Updated to Factorio 2.1.
+    - Now requires flib 0.17.0 or newer.
+    - Removed the flib migration module dependency; configuration changes now always refresh the GUI.
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.1
 Date: 2024-10-30

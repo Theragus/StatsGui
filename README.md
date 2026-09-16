@@ -4,6 +4,9 @@
 
 # Stats GUI
 
+> **Fork notice:** this is a fork of [raiguard/StatsGui](https://codeberg.org/raiguard/StatsGui)
+> updated for Factorio 2.1. All credit for the original mod goes to raiguard; see `LICENSE`.
+
 A mod for Factorio that displays various statistics near the FPS/UPS indicator.
 
 Download on the [mod portal](https://mods.factorio.com/mod/StatsGui).

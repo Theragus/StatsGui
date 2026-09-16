@@ -1,8 +1,5 @@
-local migration = require("__flib__.migration")
-
 local constants = require("constants")
 
-local migrations = require("scripts.migrations")
 local player_data = require("scripts.player-data")
 local preprocessors = require("scripts.preprocessors")
 local sensors = require("scripts.sensors")
@@ -23,12 +20,14 @@ script.on_init(function()
   end
 end)
 
-script.on_configuration_changed(function(e)
-  if migration.on_config_changed(e, migrations) then
-    storage.research_progress_samples = {}
-    for i, player in pairs(game.players) do
-      player_data.refresh(player, storage.players[i])
+script.on_configuration_changed(function()
+  storage.research_progress_samples = {}
+  storage.research_progress_strings = storage.research_progress_strings or {}
+  for i, player in pairs(game.players) do
+    if not storage.players[i] then
+      player_data.init(i)
     end
+    player_data.refresh(player, storage.players[i])
   end
 end)
 
