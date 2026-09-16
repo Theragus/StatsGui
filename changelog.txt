@@ -5,6 +5,8 @@ Date: ????
     - Updated to Factorio 2.1.
     - Now requires flib 0.17.0 or newer.
     - Removed the flib migration module dependency; configuration changes now always refresh the GUI.
+    - Renamed the internal mod name to "StatsGui-2-1" for separate publishing; marked incompatible with the original "StatsGui".
+    - Per-player settings carry over from the original mod, as the setting names are unchanged.
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.1
 Date: 2024-10-30

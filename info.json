@@ -1,18 +1,16 @@
 {
-  "name": "StatsGui",
+  "name": "StatsGui-2-1",
   "version": "1.7.0",
-  "title": "Stats GUI",
-  "description": "Displays various statistics, such as biter evolution, playtime, and more. Blends in with the game's FPS/UPS indicator. Similar to EvoGUI.",
-  "author": "raiguard",
-  "contact": "https://codeberg.org/raiguard/StatsGui/issues",
-  "homepage": "https://codeberg.org/raiguard/StatsGui",
+  "title": "Stats GUI (2.1)",
+  "description": "Displays various statistics, such as biter evolution, playtime, and more. Blends in with the game's FPS/UPS indicator. Similar to EvoGUI. A fork of raiguard's Stats GUI, updated for Factorio 2.1.",
+  "author": "raiguard, Theragus",
+  "contact": "https://github.com/Theragus/StatsGui/issues",
+  "homepage": "https://github.com/Theragus/StatsGui",
   "factorio_version": "2.1",
-  "dependencies": ["base >= 2.1.0", "flib >= 0.17.0"],
+  "dependencies": ["base >= 2.1.0", "flib >= 0.17.0", "! StatsGui"],
+  "migrates_from": ["StatsGui"],
   "package": {
-    "git_publish_branch": "trunk",
-    "scripts": {
-      "prepublish": "factorio-crowdin-sync"
-    },
+    "git_publish_branch": "main",
     "sync_portal_details": true
   }
 }
