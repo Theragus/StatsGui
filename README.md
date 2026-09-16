@@ -1,1 +1,16 @@
-# StatsGui
+[![shield](https://img.shields.io/badge/Ko--fi-Donate%20-hotpink?logo=kofi&logoColor=white)](https://ko-fi.com/raiguard)
+[![shield](https://img.shields.io/badge/Crowdin-Translate-brightgreen)](https://crowdin.com/project/raiguards-factorio-mods)
+[![shield](https://img.shields.io/badge/dynamic/json?color=orange&label=Factorio&query=downloads_count&suffix=%20downloads&url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2FStatsGui)](https://mods.factorio.com/mod/StatsGui)
+
+# Stats GUI
+
+> **Fork notice:** this is a fork of [raiguard/StatsGui](https://codeberg.org/raiguard/StatsGui)
+> updated for Factorio 2.1. All credit for the original mod goes to raiguard; see `LICENSE`.
+
+A mod for Factorio that displays various statistics near the FPS/UPS indicator.
+
+Download on the [mod portal](https://mods.factorio.com/mod/StatsGui).
+
+## Compatibility
+
+Other mods can add custom sensors via the remote interface. Click [here](https://github.com/raiguard/Factorio-SmallMods/wiki/Stats-GUI-Remote-Interface-Documentation) to view the interface documentation.
